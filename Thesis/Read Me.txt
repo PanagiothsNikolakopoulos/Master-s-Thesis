@@ -1,0 +1,45 @@
+AI-Based Skin Cancer Detection Thesis
+Master's Thesis in Data Science and Leadership
+Panagioths-Dimitrios Nikolakopoulos
+
+Overview
+This repository contains the code, results, and documentation for my Master's thesis titled "AI-Based Skin Cancer Detection Using Deep Learning Models". The primary objective of the research was to develop and evaluate machine learning models capable of detecting and classifying skin cancer using dermoscopic images, contributing to the early diagnosis and treatment of melanoma and other skin cancers.
+
+Objectives
+Develop deep learning models to classify dermoscopic images into benign and malignant lesions.
+Compare the performance of Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and the Xception model.
+Validate the findings in collaboration with dermatologists and propose potential real-world applications, such as a mobile or web-based diagnostic tool.
+Technologies Used
+Programming Language: Python
+
+Libraries and Frameworks: TensorFlow, Keras, NumPy, Pandas, Matplotlib, Seaborn
+
+Models Implemented:
+
+Convolutional Neural Networks (CNN)
+Vision Transformers (ViT-B16, ViT-B32)
+Xception
+Dataset: HAM10000 Dataset
+
+Project Structure
+The repository is organized as follows:
+
+/notebooks: Jupyter notebooks containing model training, evaluation, and visualizations.
+/data: Data preprocessing scripts and exploration (EDA).
+/models: Implementation of CNNs, Vision Transformers, and Xception architectures.
+/results: Model performance metrics, confusion matrices, and visual outputs.
+/docs: Project report, references, and detailed methodology.
+
+Results
+Achieved 98% accuracy using CNNs on the HAM10000 dataset.
+Vision Transformers showed promising results but required larger datasets for optimal performance.
+Collaboration with dermatologists provided valuable insights for model validation and future improvements.
+
+Future Work
+Expand the dataset to include images from diverse skin tones to improve generalizability.
+Deploy the trained models into a web-based application or mobile app for real-time predictions.
+Conduct clinical validation using real patient data in partnership with medical institutions.
+
+Conclusion
+This thesis demonstrates the potential of AI and deep learning models in medical image analysis, particularly for the early detection of skin cancer. With further research and deployment, such models can revolutionize diagnostic processes, especially in remote and underserved areas.
+
